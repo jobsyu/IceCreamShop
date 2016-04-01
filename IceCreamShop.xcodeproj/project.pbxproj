@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86F4DEED1CAE40FF00B814D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4DEEC1CAE40FF00B814D7 /* AppDelegate.swift */; };
+		86F4DEEF1CAE40FF00B814D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4DEEE1CAE40FF00B814D7 /* ViewController.swift */; };
+		86F4DEF21CAE40FF00B814D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F4DEF01CAE40FF00B814D7 /* Main.storyboard */; };
+		86F4DEF41CAE40FF00B814D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F4DEF31CAE40FF00B814D7 /* Assets.xcassets */; };
+		86F4DEF71CAE40FF00B814D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F4DEF51CAE40FF00B814D7 /* LaunchScreen.storyboard */; };
+		86F4DF021CAE40FF00B814D7 /* IceCreamShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4DF011CAE40FF00B814D7 /* IceCreamShopTests.swift */; };
+		86F4DF0D1CAE40FF00B814D7 /* IceCreamShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4DF0C1CAE40FF00B814D7 /* IceCreamShopUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86F4DEFE1CAE40FF00B814D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86F4DEE11CAE40FF00B814D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86F4DEE81CAE40FF00B814D7;
+			remoteInfo = IceCreamShop;
+		};
+		86F4DF091CAE40FF00B814D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86F4DEE11CAE40FF00B814D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86F4DEE81CAE40FF00B814D7;
+			remoteInfo = IceCreamShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86F4DEE91CAE40FF00B814D7 /* IceCreamShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IceCreamShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F4DEEC1CAE40FF00B814D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86F4DEEE1CAE40FF00B814D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86F4DEF11CAE40FF00B814D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86F4DEF31CAE40FF00B814D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86F4DEF61CAE40FF00B814D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86F4DEF81CAE40FF00B814D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86F4DEFD1CAE40FF00B814D7 /* IceCreamShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IceCreamShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F4DF011CAE40FF00B814D7 /* IceCreamShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamShopTests.swift; sourceTree = "<group>"; };
+		86F4DF031CAE40FF00B814D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86F4DF081CAE40FF00B814D7 /* IceCreamShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IceCreamShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F4DF0C1CAE40FF00B814D7 /* IceCreamShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamShopUITests.swift; sourceTree = "<group>"; };
+		86F4DF0E1CAE40FF00B814D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86F4DEE61CAE40FF00B814D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F4DEFA1CAE40FF00B814D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F4DF051CAE40FF00B814D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86F4DEE01CAE40FF00B814D7 = {
+			isa = PBXGroup;
+			children = (
+				86F4DEEB1CAE40FF00B814D7 /* IceCreamShop */,
+				86F4DF001CAE40FF00B814D7 /* IceCreamShopTests */,
+				86F4DF0B1CAE40FF00B814D7 /* IceCreamShopUITests */,
+				86F4DEEA1CAE40FF00B814D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86F4DEEA1CAE40FF00B814D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86F4DEE91CAE40FF00B814D7 /* IceCreamShop.app */,
+				86F4DEFD1CAE40FF00B814D7 /* IceCreamShopTests.xctest */,
+				86F4DF081CAE40FF00B814D7 /* IceCreamShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86F4DEEB1CAE40FF00B814D7 /* IceCreamShop */ = {
+			isa = PBXGroup;
+			children = (
+				86F4DEEC1CAE40FF00B814D7 /* AppDelegate.swift */,
+				86F4DEEE1CAE40FF00B814D7 /* ViewController.swift */,
+				86F4DEF01CAE40FF00B814D7 /* Main.storyboard */,
+				86F4DEF31CAE40FF00B814D7 /* Assets.xcassets */,
+				86F4DEF51CAE40FF00B814D7 /* LaunchScreen.storyboard */,
+				86F4DEF81CAE40FF00B814D7 /* Info.plist */,
+			);
+			path = IceCreamShop;
+			sourceTree = "<group>";
+		};
+		86F4DF001CAE40FF00B814D7 /* IceCreamShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				86F4DF011CAE40FF00B814D7 /* IceCreamShopTests.swift */,
+				86F4DF031CAE40FF00B814D7 /* Info.plist */,
+			);
+			path = IceCreamShopTests;
+			sourceTree = "<group>";
+		};
+		86F4DF0B1CAE40FF00B814D7 /* IceCreamShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86F4DF0C1CAE40FF00B814D7 /* IceCreamShopUITests.swift */,
+				86F4DF0E1CAE40FF00B814D7 /* Info.plist */,
+			);
+			path = IceCreamShopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86F4DEE81CAE40FF00B814D7 /* IceCreamShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86F4DF111CAE40FF00B814D7 /* Build configuration list for PBXNativeTarget "IceCreamShop" */;
+			buildPhases = (
+				86F4DEE51CAE40FF00B814D7 /* Sources */,
+				86F4DEE61CAE40FF00B814D7 /* Frameworks */,
+				86F4DEE71CAE40FF00B814D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IceCreamShop;
+			productName = IceCreamShop;
+			productReference = 86F4DEE91CAE40FF00B814D7 /* IceCreamShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86F4DEFC1CAE40FF00B814D7 /* IceCreamShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86F4DF141CAE40FF00B814D7 /* Build configuration list for PBXNativeTarget "IceCreamShopTests" */;
+			buildPhases = (
+				86F4DEF91CAE40FF00B814D7 /* Sources */,
+				86F4DEFA1CAE40FF00B814D7 /* Frameworks */,
+				86F4DEFB1CAE40FF00B814D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86F4DEFF1CAE40FF00B814D7 /* PBXTargetDependency */,
+			);
+			name = IceCreamShopTests;
+			productName = IceCreamShopTests;
+			productReference = 86F4DEFD1CAE40FF00B814D7 /* IceCreamShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86F4DF071CAE40FF00B814D7 /* IceCreamShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86F4DF171CAE40FF00B814D7 /* Build configuration list for PBXNativeTarget "IceCreamShopUITests" */;
+			buildPhases = (
+				86F4DF041CAE40FF00B814D7 /* Sources */,
+				86F4DF051CAE40FF00B814D7 /* Frameworks */,
+				86F4DF061CAE40FF00B814D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86F4DF0A1CAE40FF00B814D7 /* PBXTargetDependency */,
+			);
+			name = IceCreamShopUITests;
+			productName = IceCreamShopUITests;
+			productReference = 86F4DF081CAE40FF00B814D7 /* IceCreamShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86F4DEE11CAE40FF00B814D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ycpjobs;
+				TargetAttributes = {
+					86F4DEE81CAE40FF00B814D7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					86F4DEFC1CAE40FF00B814D7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 86F4DEE81CAE40FF00B814D7;
+					};
+					86F4DF071CAE40FF00B814D7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 86F4DEE81CAE40FF00B814D7;
+					};
+				};
+			};
+			buildConfigurationList = 86F4DEE41CAE40FF00B814D7 /* Build configuration list for PBXProject "IceCreamShop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86F4DEE01CAE40FF00B814D7;
+			productRefGroup = 86F4DEEA1CAE40FF00B814D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86F4DEE81CAE40FF00B814D7 /* IceCreamShop */,
+				86F4DEFC1CAE40FF00B814D7 /* IceCreamShopTests */,
+				86F4DF071CAE40FF00B814D7 /* IceCreamShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86F4DEE71CAE40FF00B814D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F4DEF71CAE40FF00B814D7 /* LaunchScreen.storyboard in Resources */,
+				86F4DEF41CAE40FF00B814D7 /* Assets.xcassets in Resources */,
+				86F4DEF21CAE40FF00B814D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F4DEFB1CAE40FF00B814D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F4DF061CAE40FF00B814D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86F4DEE51CAE40FF00B814D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F4DEEF1CAE40FF00B814D7 /* ViewController.swift in Sources */,
+				86F4DEED1CAE40FF00B814D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F4DEF91CAE40FF00B814D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F4DF021CAE40FF00B814D7 /* IceCreamShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F4DF041CAE40FF00B814D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F4DF0D1CAE40FF00B814D7 /* IceCreamShopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86F4DEFF1CAE40FF00B814D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86F4DEE81CAE40FF00B814D7 /* IceCreamShop */;
+			targetProxy = 86F4DEFE1CAE40FF00B814D7 /* PBXContainerItemProxy */;
+		};
+		86F4DF0A1CAE40FF00B814D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86F4DEE81CAE40FF00B814D7 /* IceCreamShop */;
+			targetProxy = 86F4DF091CAE40FF00B814D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86F4DEF01CAE40FF00B814D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86F4DEF11CAE40FF00B814D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86F4DEF51CAE40FF00B814D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86F4DEF61CAE40FF00B814D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86F4DF0F1CAE40FF00B814D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86F4DF101CAE40FF00B814D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86F4DF121CAE40FF00B814D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IceCreamShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobsycp.IceCreamShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86F4DF131CAE40FF00B814D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IceCreamShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobsycp.IceCreamShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		86F4DF151CAE40FF00B814D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IceCreamShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobsycp.IceCreamShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IceCreamShop.app/IceCreamShop";
+			};
+			name = Debug;
+		};
+		86F4DF161CAE40FF00B814D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IceCreamShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobsycp.IceCreamShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IceCreamShop.app/IceCreamShop";
+			};
+			name = Release;
+		};
+		86F4DF181CAE40FF00B814D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IceCreamShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobsycp.IceCreamShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IceCreamShop;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		86F4DF191CAE40FF00B814D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IceCreamShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jobsycp.IceCreamShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IceCreamShop;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86F4DEE41CAE40FF00B814D7 /* Build configuration list for PBXProject "IceCreamShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F4DF0F1CAE40FF00B814D7 /* Debug */,
+				86F4DF101CAE40FF00B814D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86F4DF111CAE40FF00B814D7 /* Build configuration list for PBXNativeTarget "IceCreamShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F4DF121CAE40FF00B814D7 /* Debug */,
+				86F4DF131CAE40FF00B814D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		86F4DF141CAE40FF00B814D7 /* Build configuration list for PBXNativeTarget "IceCreamShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F4DF151CAE40FF00B814D7 /* Debug */,
+				86F4DF161CAE40FF00B814D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		86F4DF171CAE40FF00B814D7 /* Build configuration list for PBXNativeTarget "IceCreamShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F4DF181CAE40FF00B814D7 /* Debug */,
+				86F4DF191CAE40FF00B814D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86F4DEE11CAE40FF00B814D7 /* Project object */;
+}
