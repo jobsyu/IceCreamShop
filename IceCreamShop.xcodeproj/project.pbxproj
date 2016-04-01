@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		86F4DEED1CAE40FF00B814D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4DEEC1CAE40FF00B814D7 /* AppDelegate.swift */; };
-		86F4DEEF1CAE40FF00B814D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4DEEE1CAE40FF00B814D7 /* ViewController.swift */; };
-		86F4DEF21CAE40FF00B814D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F4DEF01CAE40FF00B814D7 /* Main.storyboard */; };
 		86F4DEF41CAE40FF00B814D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F4DEF31CAE40FF00B814D7 /* Assets.xcassets */; };
 		86F4DEF71CAE40FF00B814D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F4DEF51CAE40FF00B814D7 /* LaunchScreen.storyboard */; };
 		86F4DF021CAE40FF00B814D7 /* IceCreamShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4DF011CAE40FF00B814D7 /* IceCreamShopTests.swift */; };
 		86F4DF0D1CAE40FF00B814D7 /* IceCreamShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4DF0C1CAE40FF00B814D7 /* IceCreamShopUITests.swift */; };
+		86F4DF241CAE46C600B814D7 /* FlavorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4DF231CAE46C600B814D7 /* FlavorFactory.swift */; };
+		86F4DF261CAE46D700B814D7 /* Flavor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4DF251CAE46D700B814D7 /* Flavor.swift */; };
+		86F4DF281CAE470F00B814D7 /* PickFlavorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4DF271CAE470F00B814D7 /* PickFlavorViewController.swift */; };
+		86F4DF2A1CAE471E00B814D7 /* PickFlavorDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4DF291CAE471E00B814D7 /* PickFlavorDataSource.swift */; };
+		86F4DF2C1CAE474F00B814D7 /* RGBAColorFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4DF2B1CAE474F00B814D7 /* RGBAColorFromString.swift */; };
+		86F4DF2E1CAE47BA00B814D7 /* IceCreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4DF2D1CAE47BA00B814D7 /* IceCreamView.swift */; };
+		86F4DF301CAE47C000B814D7 /* ScoopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4DF2F1CAE47C000B814D7 /* ScoopCell.swift */; };
+		86F4DF321CAE47C600B814D7 /* ScoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F4DF311CAE47C600B814D7 /* ScoopView.swift */; };
+		86F4DF341CAE484400B814D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F4DF331CAE484400B814D7 /* Main.storyboard */; };
 		B91C6E0A3247F118FCC64BC1 /* Pods_IceCreamShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78C027BB5B60CA6E6CCF56C /* Pods_IceCreamShop.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,8 +45,6 @@
 		4FF21A80A7D472851C1BD706 /* Pods-IceCreamShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IceCreamShop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IceCreamShop/Pods-IceCreamShop.debug.xcconfig"; sourceTree = "<group>"; };
 		86F4DEE91CAE40FF00B814D7 /* IceCreamShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IceCreamShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F4DEEC1CAE40FF00B814D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		86F4DEEE1CAE40FF00B814D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		86F4DEF11CAE40FF00B814D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86F4DEF31CAE40FF00B814D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86F4DEF61CAE40FF00B814D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86F4DEF81CAE40FF00B814D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +54,15 @@
 		86F4DF081CAE40FF00B814D7 /* IceCreamShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IceCreamShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F4DF0C1CAE40FF00B814D7 /* IceCreamShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamShopUITests.swift; sourceTree = "<group>"; };
 		86F4DF0E1CAE40FF00B814D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86F4DF231CAE46C600B814D7 /* FlavorFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlavorFactory.swift; sourceTree = "<group>"; };
+		86F4DF251CAE46D700B814D7 /* Flavor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flavor.swift; sourceTree = "<group>"; };
+		86F4DF271CAE470F00B814D7 /* PickFlavorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickFlavorViewController.swift; sourceTree = "<group>"; };
+		86F4DF291CAE471E00B814D7 /* PickFlavorDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickFlavorDataSource.swift; sourceTree = "<group>"; };
+		86F4DF2B1CAE474F00B814D7 /* RGBAColorFromString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAColorFromString.swift; sourceTree = "<group>"; };
+		86F4DF2D1CAE47BA00B814D7 /* IceCreamView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IceCreamView.swift; sourceTree = "<group>"; };
+		86F4DF2F1CAE47C000B814D7 /* ScoopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoopCell.swift; sourceTree = "<group>"; };
+		86F4DF311CAE47C600B814D7 /* ScoopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoopView.swift; sourceTree = "<group>"; };
+		86F4DF331CAE484400B814D7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A22B95B21C855AB2040A767A /* Pods-IceCreamShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IceCreamShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-IceCreamShop/Pods-IceCreamShop.release.xcconfig"; sourceTree = "<group>"; };
 		C78C027BB5B60CA6E6CCF56C /* Pods_IceCreamShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IceCreamShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -121,12 +135,13 @@
 		86F4DEEB1CAE40FF00B814D7 /* IceCreamShop */ = {
 			isa = PBXGroup;
 			children = (
-				86F4DEEC1CAE40FF00B814D7 /* AppDelegate.swift */,
-				86F4DEEE1CAE40FF00B814D7 /* ViewController.swift */,
-				86F4DEF01CAE40FF00B814D7 /* Main.storyboard */,
-				86F4DEF31CAE40FF00B814D7 /* Assets.xcassets */,
-				86F4DEF51CAE40FF00B814D7 /* LaunchScreen.storyboard */,
-				86F4DEF81CAE40FF00B814D7 /* Info.plist */,
+				86F4DF1A1CAE43EE00B814D7 /* Categories */,
+				86F4DF1B1CAE43FF00B814D7 /* Controllers */,
+				86F4DF201CAE447800B814D7 /* Views */,
+				86F4DF1D1CAE441D00B814D7 /* Models */,
+				86F4DF1C1CAE440E00B814D7 /* Factories */,
+				86F4DF1E1CAE443400B814D7 /* Resources */,
+				86F4DF1F1CAE446200B814D7 /* Supporting Files */,
 			);
 			path = IceCreamShop;
 			sourceTree = "<group>";
@@ -147,6 +162,84 @@
 				86F4DF0E1CAE40FF00B814D7 /* Info.plist */,
 			);
 			path = IceCreamShopUITests;
+			sourceTree = "<group>";
+		};
+		86F4DF1A1CAE43EE00B814D7 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				86F4DF2B1CAE474F00B814D7 /* RGBAColorFromString.swift */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		86F4DF1B1CAE43FF00B814D7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				86F4DEEC1CAE40FF00B814D7 /* AppDelegate.swift */,
+				86F4DF291CAE471E00B814D7 /* PickFlavorDataSource.swift */,
+				86F4DF271CAE470F00B814D7 /* PickFlavorViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		86F4DF1C1CAE440E00B814D7 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				86F4DF231CAE46C600B814D7 /* FlavorFactory.swift */,
+			);
+			name = Factories;
+			sourceTree = "<group>";
+		};
+		86F4DF1D1CAE441D00B814D7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				86F4DF251CAE46D700B814D7 /* Flavor.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		86F4DF1E1CAE443400B814D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				86F4DEF31CAE40FF00B814D7 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		86F4DF1F1CAE446200B814D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86F4DEF81CAE40FF00B814D7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86F4DF201CAE447800B814D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				86F4DF221CAE458800B814D7 /* Storyboards & Nibs */,
+				86F4DF331CAE484400B814D7 /* Main.storyboard */,
+				86F4DEF51CAE40FF00B814D7 /* LaunchScreen.storyboard */,
+				86F4DF211CAE457C00B814D7 /* Ice Cream */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		86F4DF211CAE457C00B814D7 /* Ice Cream */ = {
+			isa = PBXGroup;
+			children = (
+				86F4DF2D1CAE47BA00B814D7 /* IceCreamView.swift */,
+				86F4DF2F1CAE47C000B814D7 /* ScoopCell.swift */,
+				86F4DF311CAE47C600B814D7 /* ScoopView.swift */,
+			);
+			name = "Ice Cream";
+			sourceTree = "<group>";
+		};
+		86F4DF221CAE458800B814D7 /* Storyboards & Nibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Storyboards & Nibs";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +351,7 @@
 			files = (
 				86F4DEF71CAE40FF00B814D7 /* LaunchScreen.storyboard in Resources */,
 				86F4DEF41CAE40FF00B814D7 /* Assets.xcassets in Resources */,
-				86F4DEF21CAE40FF00B814D7 /* Main.storyboard in Resources */,
+				86F4DF341CAE484400B814D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +424,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86F4DEEF1CAE40FF00B814D7 /* ViewController.swift in Sources */,
+				86F4DF261CAE46D700B814D7 /* Flavor.swift in Sources */,
+				86F4DF2A1CAE471E00B814D7 /* PickFlavorDataSource.swift in Sources */,
+				86F4DF2C1CAE474F00B814D7 /* RGBAColorFromString.swift in Sources */,
+				86F4DF2E1CAE47BA00B814D7 /* IceCreamView.swift in Sources */,
+				86F4DF281CAE470F00B814D7 /* PickFlavorViewController.swift in Sources */,
+				86F4DF321CAE47C600B814D7 /* ScoopView.swift in Sources */,
+				86F4DF241CAE46C600B814D7 /* FlavorFactory.swift in Sources */,
+				86F4DF301CAE47C000B814D7 /* ScoopCell.swift in Sources */,
 				86F4DEED1CAE40FF00B814D7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,14 +468,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		86F4DEF01CAE40FF00B814D7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				86F4DEF11CAE40FF00B814D7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		86F4DEF51CAE40FF00B814D7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
